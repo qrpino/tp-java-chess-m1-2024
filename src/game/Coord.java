@@ -1,4 +1,5 @@
-class Coord {
+package src.game;
+public class Coord {
     private int x;
     private int y;
     public Coord(int x, int y)

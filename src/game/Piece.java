@@ -1,4 +1,5 @@
-abstract class Piece {
+package src.game;
+public abstract class Piece {
     static public enum Color { WHITE, BLACK };
     protected Color color;
     protected Coord coord;
@@ -10,4 +11,5 @@ abstract class Piece {
     public Color getColor() { return this.color; }
     public Coord getCoord() { return this.coord; }
     public abstract void move(Coord coord);
+    public abstract String toString();
 }
